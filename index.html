@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="reymonr" />
+		<meta
+			name="keywords"
+			content="html, beginners, unklab, fik, universitas, klabat, informatika"
+		/>
+		<meta
+			name="description"
+			content="Website ini dibuat untuk latihan pengantar tentang apa itu HTML"
+		/>
+
+		<!-- GOOGLE FONT -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- MY OWN CSS -->
+		<link rel="stylesheet" href="style.css" />
+
+		<style>
+			h2 {
+				color: brown;
+			}
+		</style>
+
+		<title>Home - BASIC HTML</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<a href="index.html">Home</a> |
+				<a href="about.html">About</a>
+			</nav>
+		</header>
+
+		<content>
+			<h1>Dokumen HTML Pertama Saya</h1>
+
+			<h2 style="color: grey">JUDUL UNTUK TAG H2</h2>
+
+			<div id="container">
+				<img
+					src="./laptop.jpg"
+					alt="Laptop Image"
+					width="200px"
+					height="150px"
+				/>
+				<p>
+					<b>Lorem</b>
+					ipsum dolor sit, amet consectetur adipisicing elit. Sapiente maiores
+					<span class="top-priority">totam</span> incidunt perspiciatis delectus
+					in officiis ipsam nam cumque doloremque ipsa, earum, tempora nostrum
+					temporibus est porro recusandae fugit quos.
+				</p>
+			</div>
+
+			<h2>ToDo List:</h2>
+			<ul>
+				<li>Bangun pagi</li>
+				<li class="top-priority top-list">
+					Ikut kelas Front-end Web Development
+				</li>
+				<li class="top-priority">Mandi pagi</li>
+			</ul>
+
+			<ol>
+				<li>Bangun pagi</li>
+				<li>Ikut kelas Front-end Web Development</li>
+				<li>Mandi pagi</li>
+			</ol>
+
+			<div id="contact-form">
+				<h2>Contact me</h2>
+				<form
+					name="registration_form"
+					id="formRegister"
+					method="POST"
+					action="#"
+				>
+					<label>Nama Lengkap Anda</label>
+					<input type="text" name="namaLengkapUser" id="namaLengkapUser" />
+					<br />
+
+					<label>Alamat Email</label>
+					<input type="email" name="emailUser" id="emailUser" />
+					<br />
+
+					<label>Jenis Kelamin</label>
+					<input type="radio" name="jkUser" id="jkUser" value="L" /> Laki-laki
+					<input type="radio" name="jkUser" id="jkUser" value="P" /> Perempuan
+					<br />
+
+					<label>Hobi</label>
+					<input
+						type="checkbox"
+						name="hobiUser"
+						id="hobiUser"
+						value="Programming"
+					/>
+					Programming
+					<input
+						type="checkbox"
+						name="hobiUser"
+						id="hobiUser"
+						value="Networking"
+					/>
+					Networking
+					<input
+						type="checkbox"
+						name="hobiUser"
+						id="hobiUser"
+						value="Database"
+					/>
+					Database
+					<input
+						type="checkbox"
+						name="hobiUser"
+						id="hobiUser"
+						value="Multimedia"
+					/>
+					Multimedia
+
+					<br />
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+
+			<div id="testimony">
+				<h1>TESTIMONY</h1>
+
+				<h4>Nama Alumni</h4>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+					iure! Fugiat nostrum laudantium, quae autem omnis recusandae itaque
+					earum. Officia et, laudantium autem officiis corrupti natus ullam quo
+					nemo eum.
+				</p>
+			</div>
+		</content>
+
+		<footer>
+			<p>My Website &copy; 2020 by reymonr</p>
+			<p>All rights reserved.</p>
+		</footer>
+	</body>
+</html>

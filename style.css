@@ -1,0 +1,100 @@
+body {
+	background-color: #fff00f;
+}
+
+h1 {
+	font-family: Poppins, sans-serif;
+}
+
+h2 {
+	color: red;
+	color: blue;
+	color: green;
+	color: purple;
+	color: whitesmoke;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 500px;
+	border: 3px solid #123456;
+	padding: 2px;
+}
+
+.box {
+	border: 1px dashed #000;
+	width: 150px;
+	height: 150px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.violet {
+	background-color: violet;
+}
+
+.brown {
+	background-color: brown;
+}
+
+p {
+	float: left;
+	width: 44%;
+	padding: 2%;
+}
+
+img {
+	/* float: left; */
+	margin: 2em;
+	border: 1px solid black;
+}
+
+#contact-form {
+	background-color: blanchedalmond;
+	margin: 2em;
+	padding: 1em;
+}
+
+#testimony {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	width: 300px;
+}
+
+.top-priority {
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	font-weight: bold;
+}
+
+.top-list {
+	list-style: square;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red !important;
+	font-size: 18px;
+}
+
+a:visited {
+	color: #123456;
+}
