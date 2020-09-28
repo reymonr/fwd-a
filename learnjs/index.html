@@ -3,11 +3,49 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- use Bootstrap library -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+
 		<title>Learn JavaScript</title>
 	</head>
 	<body>
-		<h1>Learn JavaScript - Front-end Web Development A</h1>
+		<header id="main-header" class="bg-primary text-white p-4 mb-3">
+			<div class="container">
+				<h1>Student List</h1>
+			</div>
+		</header>
 
-		<script src="oop_es6.js"></script>
+		<div class="container">
+			<div id="main" class="card card-body">
+				<h2>Add Student</h2>
+				<form>
+					<div class="form-group">
+						<label for="studentNim">Student NIM</label>
+						<input type="text" class="form-control" id="nim" />
+					</div>
+					<div class="form-group">
+						<label for="fullName">Full Name</label>
+						<input type="text" class="form-control" id="fullName" />
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+
+				<h2 class="title">List of Student</h2>
+
+				<ol id="students" class="list-group">
+					<li class="list-group-item">105021810001 / John Doe</li>
+					<li class="list-group-item">105021810002 / Sam Smith</li>
+					<li class="list-group-item">105021810003 / Clark Kent</li>
+				</ol>
+			</div>
+		</div>
+
+		<script src=""></script>
 	</body>
 </html>
