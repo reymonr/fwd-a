@@ -12,6 +12,8 @@
 			crossorigin="anonymous"
 		/>
 
+		<link rel="stylesheet" href="style.css" />
+
 		<title>Learn JavaScript</title>
 	</head>
 	<body>
@@ -23,8 +25,8 @@
 
 		<div class="container">
 			<div id="main" class="card card-body">
-				<h2>Add Student</h2>
-				<form>
+				<h2 id="header-title">Add Student</h2>
+				<form id="form-add-student">
 					<div class="form-group">
 						<label for="studentNim">Student NIM</label>
 						<input type="text" class="form-control" id="nim" />
@@ -33,7 +35,8 @@
 						<label for="fullName">Full Name</label>
 						<input type="text" class="form-control" id="fullName" />
 					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
+					<!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+					<input type="submit" class="btn btn-primary" value="Submit" />
 				</form>
 
 				<h2 class="title">List of Student</h2>
@@ -42,10 +45,14 @@
 					<li class="list-group-item">105021810001 / John Doe</li>
 					<li class="list-group-item">105021810002 / Sam Smith</li>
 					<li class="list-group-item">105021810003 / Clark Kent</li>
+					<li class="list-group-item">105021810004 / James Bond</li>
 				</ol>
+
+				<div class="m-4" id="box"></div>
+				<div id="output"></div>
 			</div>
 		</div>
 
-		<script src=""></script>
+		<script src="dom.js"></script>
 	</body>
 </html>
