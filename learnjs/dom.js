@@ -81,15 +81,15 @@
 // const btnSubmit = document.querySelector('input[type="submit"]');
 // btnSubmit.addEventListener('click', eventHandler);
 
-const box = document.querySelector('#box');
+// const box = document.querySelector('#box');
 // const container = document.querySelector('.container');
-box.addEventListener('mousemove', eventHandler);
+// box.addEventListener('mousemove', eventHandler);
 
-function eventHandler(e) {
-	e.preventDefault();
+// function eventHandler(e) {
+// 	e.preventDefault();
 
-	console.log(e);
-	output.innerHTML = `<h5>offsetX : ${e.offsetX} <br> offssetY: ${e.offsetY}</h5>`;
-	// container.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 70)`;
-	document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 70)`;
-}
+// 	console.log(e);
+// 	output.innerHTML = `<h5>offsetX : ${e.offsetX} <br> offssetY: ${e.offsetY}</h5>`;
+// container.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 70)`;
+// 	document.body.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 70)`;
+// }
